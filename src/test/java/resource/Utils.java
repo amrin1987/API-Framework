@@ -21,7 +21,7 @@ public class Utils {
     ResponseSpecification responseSpecBuilder;
 
 
-
+//if logs are not capturing perfectly:
     public RequestSpecification requestSpecification1() throws IOException {
         if (requestSpecBuilder==null) {
             PrintStream stream = new PrintStream(new FileOutputStream("logging.txt"));
