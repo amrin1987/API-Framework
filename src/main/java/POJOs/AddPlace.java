@@ -10,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AddPlace {
-
+   //Lombok dependency
     private Location location;
     private int accuracy;
     private String name;
